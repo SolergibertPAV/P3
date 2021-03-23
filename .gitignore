@@ -1,3 +1,8 @@
-/build
-/pitch_db
-/__MAC*
+/*/
+
+!/docopt_c/
+!/scripts/
+!/src/
+!/img/
+scripts/test.sh
+.DS_Store
