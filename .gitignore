@@ -6,3 +6,4 @@
 !/img/
 scripts/test.sh
 .DS_Store
+Makefile
