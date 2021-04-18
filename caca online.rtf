@@ -1,0 +1,61 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 /******************************************************************************\
+\
+                              Online C++ Compiler.\
+               Code, Compile, Run and Debug C++ program online.\
+Write your code in this editor and press "Run" button to compile and execute it.\
+\
+*******************************************************************************/\
+\
+#include <iostream>\
+#include <fstream>\
+#include <string.h>\
+#include <errno.h>\
+#include <vector>\
+#include <algorithm>\
+#include <functional>\
+#include <array>\
+\
+using namespace std;\
+\
+int main()\
+\{\
+    std::vector<float> f0 = \{0, 0, 0, 50, 25, 50, 50, 60, 50, 50, 21, 50, 10, 0, 0, 0\};\
+    std::vector<float> f0_F = f0;\
+    \
+    for (int j = 0; j<f0.size(); j++)\{\
+        cout << f0[j] << " ";\
+      \}\
+    cout << "\\n\\n";\
+    for (int j = 0; j<f0.size(); j++)\{\
+        cout << f0_F[j] << " ";\
+      \}\
+    cout << "\\n\\n";\
+    \
+    for(int n = 1; n < f0_F.size() - 1; n++)\{\
+    //cout << n << "\\n";\
+    cout << f0_F[n] << "\\n";\
+    float arr[] = \{f0_F[n-1], f0_F[n], f0_F[n+1]\};\
+      for (int j = 0; j<3; j++)\{\
+        cout << arr[j] << " ";\
+      \}\
+    sort(arr, arr+3);\
+    f0[n] = arr[1];\
+    cout << "\\n" << f0[n] << "\\n\\n";\
+  \}\
+  \
+  for (int j = 0; j<f0.size(); j++)\{\
+        cout << f0[j] << " ";\
+      \}\
+    cout << "\\n\\n";\
+    for (int j = 0; j<f0.size(); j++)\{\
+        cout << f0_F[j] << " ";\
+      \}\
+    cout << "\\n\\n";\
+\}}

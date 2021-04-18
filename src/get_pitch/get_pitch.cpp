@@ -20,11 +20,14 @@ static const char USAGE[] = R"(
 get_pitch - Pitch Detector 
 
 Usage:
-    get_pitch [options] <input-wav> <output-txt>
+    get_pitch [--umbral=U] [--window=W] [--clipping=C] <input-wav> <output-txt>
     get_pitch (-h | --help)
     get_pitch --version
 
 Options:
+    --umbral=U  Valor del umbral para discernir entre una trama sonora y silencio [default: 0.91]
+    --window=W  Type of window. Available types: Rectangular, Hamming [default: RECT]
+    --clipping=C  Valor del umbral para discernir entre una trama sonora y silencio [default: 0.001]  
     -h, --help  Show this screen
     --version   Show the version of the project
 
@@ -46,6 +49,11 @@ int main(int argc, const char *argv[]) {
 
 	std::string input_wav = args["<input-wav>"].asString();
 	std::string output_txt = args["<output-txt>"].asString();
+  std::string window = args["--window"].asString();
+  float val = std::stof(args["--umbral"].asString()); //Arreglar esta chapuza !!
+  float th_clip = std::stof(args["--clipping"].asString()); //Arreglar esta chapuza !!
+
+  //cout << val << '\n'; // Para pruebas
 
   // Read input sound file
   unsigned int rate;
@@ -59,12 +67,15 @@ int main(int argc, const char *argv[]) {
   int n_shift = rate * FRAME_SHIFT;
 
   // Define analyzer
-  PitchAnalyzer analyzer(n_len, rate, PitchAnalyzer::RECT, 50, 500);
+  PitchAnalyzer analyzer(n_len, rate, PitchAnalyzer::RECT, 50, 550, val, th_clip);
 
   /// \TODO
   /// Preprocess the input signal in order to ease pitch estimation. For instance,
   /// central-clipping or low pass filtering may be used.
   
+  /// \DONE
+  /// Hecho en pitch_analyzer.cpp
+
   // Iterate for each frame and save values in f0 vector
   vector<float>::iterator iX;
   vector<float> f0;
@@ -76,6 +87,21 @@ int main(int argc, const char *argv[]) {
   /// \TODO
   /// Postprocess the estimation in order to supress errors. For instance, a median filter
   /// or time-warping may be used.
+  vector<float> f0_F = f0; //Creamos un vector copia de f0 para poder extraer los valores ya que los modificaremos directamente de f0
+
+  for(int n = 1; n < f0_F.size() - 1; n++){
+    //cout << n << "\n";
+    //cout << f0_F[n] << "\n";
+    float arr[] = {f0_F[n-1], f0_F[n], f0_F[n+1]};
+      for (int j = 0; j<3; j++){
+        //cout << arr[j] << " ";
+      }
+    sort(arr, arr+3);
+    f0[n] = arr[1];
+    //cout << "\n" << f0[n] << "\n\n";
+  }
+  /// \DONE
+  /// median filter applied
 
   // Write f0 contour into the output file
   ofstream os(output_txt);
@@ -85,6 +111,7 @@ int main(int argc, const char *argv[]) {
   }
 
   os << 0 << '\n'; //pitch at t=0
+  //os << 0 << '\n'; // OJO!!! HE AÑADIDO ESTA LINEA PORQUE NO CUADRABA LA REFERENCIA CON NUESTRO OUTPUT!!!
   for (iX = f0.begin(); iX != f0.end(); ++iX) 
     os << *iX << '\n';
   os << 0 << '\n';//pitch at t=Dur

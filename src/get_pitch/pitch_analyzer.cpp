@@ -32,7 +32,13 @@ namespace upc {
     switch (win_type) {
     case HAMMING:
       /// \TODO Implement the Hamming window
-      break;
+      /*vector<float> hammingW(frameLen);
+
+      for (int h = 0; h < frameLen; h++){
+         hammingW[h]= 0.53836 - 0.4614*cos((2*3.14*h)/(frameLen-1));
+      }
+      window.assign(hammingW, hammingW + frameLen);
+      break;*/
     case RECT:
     default:
       window.assign(frameLen, 1);
@@ -55,16 +61,28 @@ namespace upc {
     /// \TODO Implement a rule to decide whether the sound is voiced or not.
     /// * You can use the standard features (pot, r1norm, rmaxnorm),
     ///   or compute and use other ones.
-    return false; //aqui habia un true
+    
+    if (r1norm > umbral_p){
+      return false;
+    }
+
+    return true; //aqui habia un true
+    /// \DONE
+    /// Hecho, la verdad esta parte se puede mejorar BASTANTE
   }
 
   float PitchAnalyzer::compute_pitch(vector<float> & x) const {
     if (x.size() != frameLen)
       return -1.0F;
 
-    //Window input frame
-    for (unsigned int i=0; i<x.size(); ++i)
+    //Center clipping & Window input frame
+    for (unsigned int i=0; i<x.size(); ++i){
+      if(x[i] < th_clipping_p && x[i] > -th_clipping_p){
+        x[i] = 0;
+      }
+      //cout << x[i] << '\n';
       x[i] *= window[i];
+    }
 
     vector<float> r(npitch_max);
 
