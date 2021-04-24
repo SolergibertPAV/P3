@@ -87,7 +87,7 @@ int main(int argc, const char *argv[]) {
   /// \TODO
   /// Postprocess the estimation in order to supress errors. For instance, a median filter
   /// or time-warping may be used.
-  vector<float> f0_F = f0; //Creamos un vector copia de f0 para poder extraer los valores ya que los modificaremos directamente de f0
+  /*vector<float> f0_F = f0; //Creamos un vector copia de f0 para poder extraer los valores ya que los modificaremos directamente de f0
 
   for(int n = 1; n < f0_F.size() - 1; n++){
     //cout << n << "\n";
@@ -99,7 +99,7 @@ int main(int argc, const char *argv[]) {
     sort(arr, arr+3);
     f0[n] = arr[1];
     //cout << "\n" << f0[n] << "\n\n";
-  }
+  }*/
   /// \DONE
   /// median filter applied
 

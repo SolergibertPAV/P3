@@ -3,7 +3,7 @@
 # Put here the program (maybe with path)
 PE="pitch_evaluate pitch_db/train/*f0ref" #Solucionar chapuza
 
-for up in 0.91 0.915; do
+for up in 0.91 0.92 0.93; do
 for thc in 0.001 0.0001 0.0005; do
 
 GETF0="get_pitch --umbral=$up --clipping=$thc"
