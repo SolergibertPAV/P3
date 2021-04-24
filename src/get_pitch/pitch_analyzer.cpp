@@ -62,11 +62,12 @@ namespace upc {
     /// * You can use the standard features (pot, r1norm, rmaxnorm),
     ///   or compute and use other ones.
     
-    if (r1norm > umbral_p){
+    if (r1norm > umbral_R1 && rmaxnorm > umbral_RM && pot > umbral_P){
       return false;
     }
 
-    return true; //aqui habia un true
+    return true;
+    //return (r1norm < 0.9 || rmaxnorm < 0.2 || pot < -38);
     /// \DONE
     /// Hecho, la verdad esta parte se puede mejorar BASTANTE
   }

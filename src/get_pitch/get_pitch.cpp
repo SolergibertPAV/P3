@@ -10,7 +10,7 @@
 
 #include "docopt.h"
 
-#define FRAME_LEN   0.030 /* 30 ms. */
+#define FRAME_LEN   0.025 /* 25 ms. */
 #define FRAME_SHIFT 0.015 /* 15 ms. */
 
 using namespace std;
@@ -20,12 +20,14 @@ static const char USAGE[] = R"(
 get_pitch - Pitch Detector 
 
 Usage:
-    get_pitch [--umbral=U] [--window=W] [--clipping=C] <input-wav> <output-txt>
+    get_pitch [--umbralR1=U] [--umbralRm=M] [--umbralP=P] [--window=W] [--clipping=C] <input-wav> <output-txt>
     get_pitch (-h | --help)
     get_pitch --version
 
 Options:
-    --umbral=U  Valor del umbral para discernir entre una trama sonora y silencio [default: 0.91]
+    --umbralR1=R  Valor del umbral de r1norm para discernir entre una trama sonora y silencio [default: 0.89]
+    --umbralRm=M  Valor del umbral de rmaxnorm para discernir entre una trama sonora y silencio [default: 0.2]
+    --umbralP=P  Valor del umbral de pot para discernir entre una trama sonora y silencio [default: -40]
     --window=W  Type of window. Available types: Rectangular, Hamming [default: RECT]
     --clipping=C  Valor del umbral para discernir entre una trama sonora y silencio [default: 0.001]  
     -h, --help  Show this screen
@@ -50,8 +52,10 @@ int main(int argc, const char *argv[]) {
 	std::string input_wav = args["<input-wav>"].asString();
 	std::string output_txt = args["<output-txt>"].asString();
   std::string window = args["--window"].asString();
-  float val = std::stof(args["--umbral"].asString()); //Arreglar esta chapuza !!
-  float th_clip = std::stof(args["--clipping"].asString()); //Arreglar esta chapuza !!
+  float UR1 = stof(args["--umbralR1"].asString());
+  float URM = stof(args["--umbralRm"].asString());
+  float UP = stof(args["--umbralP"].asString());
+  float th_clip = stof(args["--clipping"].asString());
 
   //cout << val << '\n'; // Para pruebas
 
@@ -67,7 +71,7 @@ int main(int argc, const char *argv[]) {
   int n_shift = rate * FRAME_SHIFT;
 
   // Define analyzer
-  PitchAnalyzer analyzer(n_len, rate, PitchAnalyzer::RECT, 50, 550, val, th_clip); //Estos dos últimos los he añadido YO! 
+  PitchAnalyzer analyzer(n_len, rate, PitchAnalyzer::RECT, 50, 550, UR1, URM, UP, th_clip); //Estos dos últimos los he añadido YO! 
 
   /// \TODO
   /// Preprocess the input signal in order to ease pitch estimation. For instance,
@@ -87,7 +91,8 @@ int main(int argc, const char *argv[]) {
   /// \TODO
   /// Postprocess the estimation in order to supress errors. For instance, a median filter
   /// or time-warping may be used.
-  /*vector<float> f0_F = f0; //Creamos un vector copia de f0 para poder extraer los valores ya que los modificaremos directamente de f0
+  /*
+  vector<float> f0_F = f0; //Creamos un vector copia de f0 para poder extraer los valores ya que los modificaremos directamente de f0
 
   for(int n = 1; n < f0_F.size() - 1; n++){
     //cout << n << "\n";
@@ -99,7 +104,8 @@ int main(int argc, const char *argv[]) {
     sort(arr, arr+3);
     f0[n] = arr[1];
     //cout << "\n" << f0[n] << "\n\n";
-  }*/
+  }
+  */
   /// \DONE
   /// median filter applied
 

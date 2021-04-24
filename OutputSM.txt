@@ -1,0 +1,640 @@
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.18 Umbral P: -36, TH_CLIPPING: 0.001
+===>	TOTAL:	87.50 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.18 Umbral P: -36, TH_CLIPPING: 0.0001
+===>	TOTAL:	87.50 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.18 Umbral P: -36, TH_CLIPPING: 0.0005
+===>	TOTAL:	87.50 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.18 Umbral P: -36, TH_CLIPPING: 0.01
+===>	TOTAL:	87.14 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.18 Umbral P: -37, TH_CLIPPING: 0.001
+===>	TOTAL:	88.62 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.18 Umbral P: -37, TH_CLIPPING: 0.0001
+===>	TOTAL:	88.62 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.18 Umbral P: -37, TH_CLIPPING: 0.0005
+===>	TOTAL:	88.62 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.18 Umbral P: -37, TH_CLIPPING: 0.01
+===>	TOTAL:	88.16 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.18 Umbral P: -38, TH_CLIPPING: 0.001
+===>	TOTAL:	89.17 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.18 Umbral P: -38, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.20 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.18 Umbral P: -38, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.17 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.18 Umbral P: -38, TH_CLIPPING: 0.01
+===>	TOTAL:	88.98 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.18 Umbral P: -39, TH_CLIPPING: 0.001
+===>	TOTAL:	89.63 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.18 Umbral P: -39, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.65 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.18 Umbral P: -39, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.63 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.18 Umbral P: -39, TH_CLIPPING: 0.01
+===>	TOTAL:	89.39 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.18 Umbral P: -40, TH_CLIPPING: 0.001
+===>	TOTAL:	90.03 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.18 Umbral P: -40, TH_CLIPPING: 0.0001
+===>	TOTAL:	90.06 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.18 Umbral P: -40, TH_CLIPPING: 0.0005
+===>	TOTAL:	90.03 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.18 Umbral P: -40, TH_CLIPPING: 0.01
+===>	TOTAL:	89.82 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.19 Umbral P: -36, TH_CLIPPING: 0.001
+===>	TOTAL:	87.51 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.19 Umbral P: -36, TH_CLIPPING: 0.0001
+===>	TOTAL:	87.51 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.19 Umbral P: -36, TH_CLIPPING: 0.0005
+===>	TOTAL:	87.51 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.19 Umbral P: -36, TH_CLIPPING: 0.01
+===>	TOTAL:	87.13 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.19 Umbral P: -37, TH_CLIPPING: 0.001
+===>	TOTAL:	88.64 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.19 Umbral P: -37, TH_CLIPPING: 0.0001
+===>	TOTAL:	88.64 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.19 Umbral P: -37, TH_CLIPPING: 0.0005
+===>	TOTAL:	88.64 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.19 Umbral P: -37, TH_CLIPPING: 0.01
+===>	TOTAL:	88.15 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.19 Umbral P: -38, TH_CLIPPING: 0.001
+===>	TOTAL:	89.20 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.19 Umbral P: -38, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.22 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.19 Umbral P: -38, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.20 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.19 Umbral P: -38, TH_CLIPPING: 0.01
+===>	TOTAL:	88.97 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.19 Umbral P: -39, TH_CLIPPING: 0.001
+===>	TOTAL:	89.67 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.19 Umbral P: -39, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.69 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.19 Umbral P: -39, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.67 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.19 Umbral P: -39, TH_CLIPPING: 0.01
+===>	TOTAL:	89.38 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.19 Umbral P: -40, TH_CLIPPING: 0.001
+===>	TOTAL:	90.07 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.19 Umbral P: -40, TH_CLIPPING: 0.0001
+===>	TOTAL:	90.09 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.19 Umbral P: -40, TH_CLIPPING: 0.0005
+===>	TOTAL:	90.07 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.19 Umbral P: -40, TH_CLIPPING: 0.01
+===>	TOTAL:	89.81 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.2 Umbral P: -36, TH_CLIPPING: 0.001
+===>	TOTAL:	87.52 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.2 Umbral P: -36, TH_CLIPPING: 0.0001
+===>	TOTAL:	87.52 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.2 Umbral P: -36, TH_CLIPPING: 0.0005
+===>	TOTAL:	87.52 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.2 Umbral P: -36, TH_CLIPPING: 0.01
+===>	TOTAL:	87.15 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.2 Umbral P: -37, TH_CLIPPING: 0.001
+===>	TOTAL:	88.65 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.2 Umbral P: -37, TH_CLIPPING: 0.0001
+===>	TOTAL:	88.65 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.2 Umbral P: -37, TH_CLIPPING: 0.0005
+===>	TOTAL:	88.65 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.2 Umbral P: -37, TH_CLIPPING: 0.01
+===>	TOTAL:	88.19 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.2 Umbral P: -38, TH_CLIPPING: 0.001
+===>	TOTAL:	89.23 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.2 Umbral P: -38, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.24 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.2 Umbral P: -38, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.22 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.2 Umbral P: -38, TH_CLIPPING: 0.01
+===>	TOTAL:	89.01 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.2 Umbral P: -39, TH_CLIPPING: 0.001
+===>	TOTAL:	89.72 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.2 Umbral P: -39, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.74 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.2 Umbral P: -39, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.71 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.2 Umbral P: -39, TH_CLIPPING: 0.01
+===>	TOTAL:	89.42 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.2 Umbral P: -40, TH_CLIPPING: 0.001
+===>	TOTAL:	90.16 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.2 Umbral P: -40, TH_CLIPPING: 0.0001
+===>	TOTAL:	90.17 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.2 Umbral P: -40, TH_CLIPPING: 0.0005
+===>	TOTAL:	90.15 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.2 Umbral P: -40, TH_CLIPPING: 0.01
+===>	TOTAL:	89.83 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.21 Umbral P: -36, TH_CLIPPING: 0.001
+===>	TOTAL:	87.52 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.21 Umbral P: -36, TH_CLIPPING: 0.0001
+===>	TOTAL:	87.52 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.21 Umbral P: -36, TH_CLIPPING: 0.0005
+===>	TOTAL:	87.52 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.21 Umbral P: -36, TH_CLIPPING: 0.01
+===>	TOTAL:	87.15 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.21 Umbral P: -37, TH_CLIPPING: 0.001
+===>	TOTAL:	88.65 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.21 Umbral P: -37, TH_CLIPPING: 0.0001
+===>	TOTAL:	88.65 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.21 Umbral P: -37, TH_CLIPPING: 0.0005
+===>	TOTAL:	88.65 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.21 Umbral P: -37, TH_CLIPPING: 0.01
+===>	TOTAL:	88.18 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.21 Umbral P: -38, TH_CLIPPING: 0.001
+===>	TOTAL:	89.22 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.21 Umbral P: -38, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.25 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.21 Umbral P: -38, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.22 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.21 Umbral P: -38, TH_CLIPPING: 0.01
+===>	TOTAL:	89.00 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.21 Umbral P: -39, TH_CLIPPING: 0.001
+===>	TOTAL:	89.74 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.21 Umbral P: -39, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.76 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.21 Umbral P: -39, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.74 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.21 Umbral P: -39, TH_CLIPPING: 0.01
+===>	TOTAL:	89.42 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.21 Umbral P: -40, TH_CLIPPING: 0.001
+===>	TOTAL:	90.17 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.21 Umbral P: -40, TH_CLIPPING: 0.0001
+===>	TOTAL:	90.19 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.21 Umbral P: -40, TH_CLIPPING: 0.0005
+===>	TOTAL:	90.17 %
+Parametros: Umbral R1: 0.88, Umbral Rm: 0.21 Umbral P: -40, TH_CLIPPING: 0.01
+===>	TOTAL:	89.83 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.18 Umbral P: -36, TH_CLIPPING: 0.001
+===>	TOTAL:	87.47 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.18 Umbral P: -36, TH_CLIPPING: 0.0001
+===>	TOTAL:	87.47 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.18 Umbral P: -36, TH_CLIPPING: 0.0005
+===>	TOTAL:	87.47 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.18 Umbral P: -36, TH_CLIPPING: 0.01
+===>	TOTAL:	87.12 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.18 Umbral P: -37, TH_CLIPPING: 0.001
+===>	TOTAL:	88.60 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.18 Umbral P: -37, TH_CLIPPING: 0.0001
+===>	TOTAL:	88.60 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.18 Umbral P: -37, TH_CLIPPING: 0.0005
+===>	TOTAL:	88.60 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.18 Umbral P: -37, TH_CLIPPING: 0.01
+===>	TOTAL:	88.12 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.18 Umbral P: -38, TH_CLIPPING: 0.001
+===>	TOTAL:	89.21 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.18 Umbral P: -38, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.21 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.18 Umbral P: -38, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.21 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.18 Umbral P: -38, TH_CLIPPING: 0.01
+===>	TOTAL:	88.94 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.18 Umbral P: -39, TH_CLIPPING: 0.001
+===>	TOTAL:	89.66 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.18 Umbral P: -39, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.66 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.18 Umbral P: -39, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.66 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.18 Umbral P: -39, TH_CLIPPING: 0.01
+===>	TOTAL:	89.32 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.18 Umbral P: -40, TH_CLIPPING: 0.001
+===>	TOTAL:	90.08 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.18 Umbral P: -40, TH_CLIPPING: 0.0001
+===>	TOTAL:	90.08 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.18 Umbral P: -40, TH_CLIPPING: 0.0005
+===>	TOTAL:	90.08 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.18 Umbral P: -40, TH_CLIPPING: 0.01
+===>	TOTAL:	89.76 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.19 Umbral P: -36, TH_CLIPPING: 0.001
+===>	TOTAL:	87.48 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.19 Umbral P: -36, TH_CLIPPING: 0.0001
+===>	TOTAL:	87.48 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.19 Umbral P: -36, TH_CLIPPING: 0.0005
+===>	TOTAL:	87.48 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.19 Umbral P: -36, TH_CLIPPING: 0.01
+===>	TOTAL:	87.11 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.19 Umbral P: -37, TH_CLIPPING: 0.001
+===>	TOTAL:	88.63 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.19 Umbral P: -37, TH_CLIPPING: 0.0001
+===>	TOTAL:	88.63 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.19 Umbral P: -37, TH_CLIPPING: 0.0005
+===>	TOTAL:	88.63 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.19 Umbral P: -37, TH_CLIPPING: 0.01
+===>	TOTAL:	88.12 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.19 Umbral P: -38, TH_CLIPPING: 0.001
+===>	TOTAL:	89.23 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.19 Umbral P: -38, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.23 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.19 Umbral P: -38, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.23 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.19 Umbral P: -38, TH_CLIPPING: 0.01
+===>	TOTAL:	88.93 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.19 Umbral P: -39, TH_CLIPPING: 0.001
+===>	TOTAL:	89.70 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.19 Umbral P: -39, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.70 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.19 Umbral P: -39, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.70 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.19 Umbral P: -39, TH_CLIPPING: 0.01
+===>	TOTAL:	89.31 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.19 Umbral P: -40, TH_CLIPPING: 0.001
+===>	TOTAL:	90.11 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.19 Umbral P: -40, TH_CLIPPING: 0.0001
+===>	TOTAL:	90.11 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.19 Umbral P: -40, TH_CLIPPING: 0.0005
+===>	TOTAL:	90.11 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.19 Umbral P: -40, TH_CLIPPING: 0.01
+===>	TOTAL:	89.75 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.2 Umbral P: -36, TH_CLIPPING: 0.001
+===>	TOTAL:	87.49 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.2 Umbral P: -36, TH_CLIPPING: 0.0001
+===>	TOTAL:	87.49 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.2 Umbral P: -36, TH_CLIPPING: 0.0005
+===>	TOTAL:	87.49 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.2 Umbral P: -36, TH_CLIPPING: 0.01
+===>	TOTAL:	87.13 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.2 Umbral P: -37, TH_CLIPPING: 0.001
+===>	TOTAL:	88.64 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.2 Umbral P: -37, TH_CLIPPING: 0.0001
+===>	TOTAL:	88.63 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.2 Umbral P: -37, TH_CLIPPING: 0.0005
+===>	TOTAL:	88.63 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.2 Umbral P: -37, TH_CLIPPING: 0.01
+===>	TOTAL:	88.16 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.2 Umbral P: -38, TH_CLIPPING: 0.001
+===>	TOTAL:	89.26 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.2 Umbral P: -38, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.25 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.2 Umbral P: -38, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.25 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.2 Umbral P: -38, TH_CLIPPING: 0.01
+===>	TOTAL:	88.97 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.2 Umbral P: -39, TH_CLIPPING: 0.001
+===>	TOTAL:	89.76 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.2 Umbral P: -39, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.75 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.2 Umbral P: -39, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.75 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.2 Umbral P: -39, TH_CLIPPING: 0.01
+===>	TOTAL:	89.35 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.2 Umbral P: -40, TH_CLIPPING: 0.001
+===>	TOTAL:	90.20 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.2 Umbral P: -40, TH_CLIPPING: 0.0001
+===>	TOTAL:	90.19 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.2 Umbral P: -40, TH_CLIPPING: 0.0005
+===>	TOTAL:	90.19 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.2 Umbral P: -40, TH_CLIPPING: 0.01
+===>	TOTAL:	89.77 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.21 Umbral P: -36, TH_CLIPPING: 0.001
+===>	TOTAL:	87.48 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.21 Umbral P: -36, TH_CLIPPING: 0.0001
+===>	TOTAL:	87.48 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.21 Umbral P: -36, TH_CLIPPING: 0.0005
+===>	TOTAL:	87.48 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.21 Umbral P: -36, TH_CLIPPING: 0.01
+===>	TOTAL:	87.13 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.21 Umbral P: -37, TH_CLIPPING: 0.001
+===>	TOTAL:	88.62 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.21 Umbral P: -37, TH_CLIPPING: 0.0001
+===>	TOTAL:	88.62 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.21 Umbral P: -37, TH_CLIPPING: 0.0005
+===>	TOTAL:	88.62 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.21 Umbral P: -37, TH_CLIPPING: 0.01
+===>	TOTAL:	88.14 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.21 Umbral P: -38, TH_CLIPPING: 0.001
+===>	TOTAL:	89.25 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.21 Umbral P: -38, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.24 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.21 Umbral P: -38, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.25 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.21 Umbral P: -38, TH_CLIPPING: 0.01
+===>	TOTAL:	88.97 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.21 Umbral P: -39, TH_CLIPPING: 0.001
+===>	TOTAL:	89.76 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.21 Umbral P: -39, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.76 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.21 Umbral P: -39, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.76 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.21 Umbral P: -39, TH_CLIPPING: 0.01
+===>	TOTAL:	89.35 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.21 Umbral P: -40, TH_CLIPPING: 0.001
+===>	TOTAL:	90.20 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.21 Umbral P: -40, TH_CLIPPING: 0.0001
+===>	TOTAL:	90.20 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.21 Umbral P: -40, TH_CLIPPING: 0.0005
+===>	TOTAL:	90.20 %
+Parametros: Umbral R1: 0.89, Umbral Rm: 0.21 Umbral P: -40, TH_CLIPPING: 0.01
+===>	TOTAL:	89.77 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.18 Umbral P: -36, TH_CLIPPING: 0.001
+===>	TOTAL:	87.43 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.18 Umbral P: -36, TH_CLIPPING: 0.0001
+===>	TOTAL:	87.43 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.18 Umbral P: -36, TH_CLIPPING: 0.0005
+===>	TOTAL:	87.43 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.18 Umbral P: -36, TH_CLIPPING: 0.01
+===>	TOTAL:	86.79 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.18 Umbral P: -37, TH_CLIPPING: 0.001
+===>	TOTAL:	88.57 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.18 Umbral P: -37, TH_CLIPPING: 0.0001
+===>	TOTAL:	88.57 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.18 Umbral P: -37, TH_CLIPPING: 0.0005
+===>	TOTAL:	88.57 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.18 Umbral P: -37, TH_CLIPPING: 0.01
+===>	TOTAL:	87.82 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.18 Umbral P: -38, TH_CLIPPING: 0.001
+===>	TOTAL:	89.18 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.18 Umbral P: -38, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.18 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.18 Umbral P: -38, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.18 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.18 Umbral P: -38, TH_CLIPPING: 0.01
+===>	TOTAL:	88.64 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.18 Umbral P: -39, TH_CLIPPING: 0.001
+===>	TOTAL:	89.64 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.18 Umbral P: -39, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.63 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.18 Umbral P: -39, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.63 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.18 Umbral P: -39, TH_CLIPPING: 0.01
+===>	TOTAL:	89.03 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.18 Umbral P: -40, TH_CLIPPING: 0.001
+===>	TOTAL:	90.06 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.18 Umbral P: -40, TH_CLIPPING: 0.0001
+===>	TOTAL:	90.06 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.18 Umbral P: -40, TH_CLIPPING: 0.0005
+===>	TOTAL:	90.06 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.18 Umbral P: -40, TH_CLIPPING: 0.01
+===>	TOTAL:	89.48 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.19 Umbral P: -36, TH_CLIPPING: 0.001
+===>	TOTAL:	87.44 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.19 Umbral P: -36, TH_CLIPPING: 0.0001
+===>	TOTAL:	87.44 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.19 Umbral P: -36, TH_CLIPPING: 0.0005
+===>	TOTAL:	87.44 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.19 Umbral P: -36, TH_CLIPPING: 0.01
+===>	TOTAL:	86.78 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.19 Umbral P: -37, TH_CLIPPING: 0.001
+===>	TOTAL:	88.59 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.19 Umbral P: -37, TH_CLIPPING: 0.0001
+===>	TOTAL:	88.59 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.19 Umbral P: -37, TH_CLIPPING: 0.0005
+===>	TOTAL:	88.59 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.19 Umbral P: -37, TH_CLIPPING: 0.01
+===>	TOTAL:	87.81 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.19 Umbral P: -38, TH_CLIPPING: 0.001
+===>	TOTAL:	89.20 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.19 Umbral P: -38, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.20 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.19 Umbral P: -38, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.20 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.19 Umbral P: -38, TH_CLIPPING: 0.01
+===>	TOTAL:	88.63 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.19 Umbral P: -39, TH_CLIPPING: 0.001
+===>	TOTAL:	89.67 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.19 Umbral P: -39, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.67 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.19 Umbral P: -39, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.67 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.19 Umbral P: -39, TH_CLIPPING: 0.01
+===>	TOTAL:	89.02 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.19 Umbral P: -40, TH_CLIPPING: 0.001
+===>	TOTAL:	90.10 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.19 Umbral P: -40, TH_CLIPPING: 0.0001
+===>	TOTAL:	90.10 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.19 Umbral P: -40, TH_CLIPPING: 0.0005
+===>	TOTAL:	90.10 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.19 Umbral P: -40, TH_CLIPPING: 0.01
+===>	TOTAL:	89.47 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.2 Umbral P: -36, TH_CLIPPING: 0.001
+===>	TOTAL:	87.45 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.2 Umbral P: -36, TH_CLIPPING: 0.0001
+===>	TOTAL:	87.45 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.2 Umbral P: -36, TH_CLIPPING: 0.0005
+===>	TOTAL:	87.45 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.2 Umbral P: -36, TH_CLIPPING: 0.01
+===>	TOTAL:	86.80 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.2 Umbral P: -37, TH_CLIPPING: 0.001
+===>	TOTAL:	88.61 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.2 Umbral P: -37, TH_CLIPPING: 0.0001
+===>	TOTAL:	88.60 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.2 Umbral P: -37, TH_CLIPPING: 0.0005
+===>	TOTAL:	88.60 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.2 Umbral P: -37, TH_CLIPPING: 0.01
+===>	TOTAL:	87.85 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.2 Umbral P: -38, TH_CLIPPING: 0.001
+===>	TOTAL:	89.23 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.2 Umbral P: -38, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.23 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.2 Umbral P: -38, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.23 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.2 Umbral P: -38, TH_CLIPPING: 0.01
+===>	TOTAL:	88.67 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.2 Umbral P: -39, TH_CLIPPING: 0.001
+===>	TOTAL:	89.72 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.2 Umbral P: -39, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.71 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.2 Umbral P: -39, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.71 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.2 Umbral P: -39, TH_CLIPPING: 0.01
+===>	TOTAL:	89.06 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.2 Umbral P: -40, TH_CLIPPING: 0.001
+===>	TOTAL:	90.17 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.2 Umbral P: -40, TH_CLIPPING: 0.0001
+===>	TOTAL:	90.16 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.2 Umbral P: -40, TH_CLIPPING: 0.0005
+===>	TOTAL:	90.16 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.2 Umbral P: -40, TH_CLIPPING: 0.01
+===>	TOTAL:	89.49 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.21 Umbral P: -36, TH_CLIPPING: 0.001
+===>	TOTAL:	87.44 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.21 Umbral P: -36, TH_CLIPPING: 0.0001
+===>	TOTAL:	87.44 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.21 Umbral P: -36, TH_CLIPPING: 0.0005
+===>	TOTAL:	87.44 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.21 Umbral P: -36, TH_CLIPPING: 0.01
+===>	TOTAL:	86.80 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.21 Umbral P: -37, TH_CLIPPING: 0.001
+===>	TOTAL:	88.59 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.21 Umbral P: -37, TH_CLIPPING: 0.0001
+===>	TOTAL:	88.59 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.21 Umbral P: -37, TH_CLIPPING: 0.0005
+===>	TOTAL:	88.59 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.21 Umbral P: -37, TH_CLIPPING: 0.01
+===>	TOTAL:	87.83 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.21 Umbral P: -38, TH_CLIPPING: 0.001
+===>	TOTAL:	89.22 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.21 Umbral P: -38, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.22 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.21 Umbral P: -38, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.22 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.21 Umbral P: -38, TH_CLIPPING: 0.01
+===>	TOTAL:	88.66 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.21 Umbral P: -39, TH_CLIPPING: 0.001
+===>	TOTAL:	89.72 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.21 Umbral P: -39, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.72 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.21 Umbral P: -39, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.72 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.21 Umbral P: -39, TH_CLIPPING: 0.01
+===>	TOTAL:	89.06 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.21 Umbral P: -40, TH_CLIPPING: 0.001
+===>	TOTAL:	90.17 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.21 Umbral P: -40, TH_CLIPPING: 0.0001
+===>	TOTAL:	90.17 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.21 Umbral P: -40, TH_CLIPPING: 0.0005
+===>	TOTAL:	90.17 %
+Parametros: Umbral R1: 0.9, Umbral Rm: 0.21 Umbral P: -40, TH_CLIPPING: 0.01
+===>	TOTAL:	89.49 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.18 Umbral P: -36, TH_CLIPPING: 0.001
+===>	TOTAL:	87.03 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.18 Umbral P: -36, TH_CLIPPING: 0.0001
+===>	TOTAL:	87.04 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.18 Umbral P: -36, TH_CLIPPING: 0.0005
+===>	TOTAL:	87.04 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.18 Umbral P: -36, TH_CLIPPING: 0.01
+===>	TOTAL:	86.37 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.18 Umbral P: -37, TH_CLIPPING: 0.001
+===>	TOTAL:	88.22 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.18 Umbral P: -37, TH_CLIPPING: 0.0001
+===>	TOTAL:	88.23 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.18 Umbral P: -37, TH_CLIPPING: 0.0005
+===>	TOTAL:	88.24 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.18 Umbral P: -37, TH_CLIPPING: 0.01
+===>	TOTAL:	87.36 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.18 Umbral P: -38, TH_CLIPPING: 0.001
+===>	TOTAL:	88.85 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.18 Umbral P: -38, TH_CLIPPING: 0.0001
+===>	TOTAL:	88.86 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.18 Umbral P: -38, TH_CLIPPING: 0.0005
+===>	TOTAL:	88.86 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.18 Umbral P: -38, TH_CLIPPING: 0.01
+===>	TOTAL:	88.10 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.18 Umbral P: -39, TH_CLIPPING: 0.001
+===>	TOTAL:	89.31 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.18 Umbral P: -39, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.33 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.18 Umbral P: -39, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.33 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.18 Umbral P: -39, TH_CLIPPING: 0.01
+===>	TOTAL:	88.49 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.18 Umbral P: -40, TH_CLIPPING: 0.001
+===>	TOTAL:	89.73 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.18 Umbral P: -40, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.75 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.18 Umbral P: -40, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.75 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.18 Umbral P: -40, TH_CLIPPING: 0.01
+===>	TOTAL:	88.92 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.19 Umbral P: -36, TH_CLIPPING: 0.001
+===>	TOTAL:	87.04 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.19 Umbral P: -36, TH_CLIPPING: 0.0001
+===>	TOTAL:	87.06 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.19 Umbral P: -36, TH_CLIPPING: 0.0005
+===>	TOTAL:	87.06 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.19 Umbral P: -36, TH_CLIPPING: 0.01
+===>	TOTAL:	86.37 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.19 Umbral P: -37, TH_CLIPPING: 0.001
+===>	TOTAL:	88.24 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.19 Umbral P: -37, TH_CLIPPING: 0.0001
+===>	TOTAL:	88.26 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.19 Umbral P: -37, TH_CLIPPING: 0.0005
+===>	TOTAL:	88.26 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.19 Umbral P: -37, TH_CLIPPING: 0.01
+===>	TOTAL:	87.35 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.19 Umbral P: -38, TH_CLIPPING: 0.001
+===>	TOTAL:	88.87 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.19 Umbral P: -38, TH_CLIPPING: 0.0001
+===>	TOTAL:	88.88 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.19 Umbral P: -38, TH_CLIPPING: 0.0005
+===>	TOTAL:	88.88 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.19 Umbral P: -38, TH_CLIPPING: 0.01
+===>	TOTAL:	88.09 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.19 Umbral P: -39, TH_CLIPPING: 0.001
+===>	TOTAL:	89.35 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.19 Umbral P: -39, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.36 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.19 Umbral P: -39, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.36 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.19 Umbral P: -39, TH_CLIPPING: 0.01
+===>	TOTAL:	88.48 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.19 Umbral P: -40, TH_CLIPPING: 0.001
+===>	TOTAL:	89.77 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.19 Umbral P: -40, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.78 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.19 Umbral P: -40, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.78 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.19 Umbral P: -40, TH_CLIPPING: 0.01
+===>	TOTAL:	88.91 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.2 Umbral P: -36, TH_CLIPPING: 0.001
+===>	TOTAL:	87.05 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.2 Umbral P: -36, TH_CLIPPING: 0.0001
+===>	TOTAL:	87.06 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.2 Umbral P: -36, TH_CLIPPING: 0.0005
+===>	TOTAL:	87.06 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.2 Umbral P: -36, TH_CLIPPING: 0.01
+===>	TOTAL:	86.39 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.2 Umbral P: -37, TH_CLIPPING: 0.001
+===>	TOTAL:	88.27 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.2 Umbral P: -37, TH_CLIPPING: 0.0001
+===>	TOTAL:	88.28 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.2 Umbral P: -37, TH_CLIPPING: 0.0005
+===>	TOTAL:	88.28 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.2 Umbral P: -37, TH_CLIPPING: 0.01
+===>	TOTAL:	87.39 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.2 Umbral P: -38, TH_CLIPPING: 0.001
+===>	TOTAL:	88.91 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.2 Umbral P: -38, TH_CLIPPING: 0.0001
+===>	TOTAL:	88.92 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.2 Umbral P: -38, TH_CLIPPING: 0.0005
+===>	TOTAL:	88.92 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.2 Umbral P: -38, TH_CLIPPING: 0.01
+===>	TOTAL:	88.13 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.2 Umbral P: -39, TH_CLIPPING: 0.001
+===>	TOTAL:	89.40 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.2 Umbral P: -39, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.41 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.2 Umbral P: -39, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.41 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.2 Umbral P: -39, TH_CLIPPING: 0.01
+===>	TOTAL:	88.52 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.2 Umbral P: -40, TH_CLIPPING: 0.001
+===>	TOTAL:	89.85 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.2 Umbral P: -40, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.86 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.2 Umbral P: -40, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.87 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.2 Umbral P: -40, TH_CLIPPING: 0.01
+===>	TOTAL:	88.93 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.21 Umbral P: -36, TH_CLIPPING: 0.001
+===>	TOTAL:	87.04 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.21 Umbral P: -36, TH_CLIPPING: 0.0001
+===>	TOTAL:	87.05 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.21 Umbral P: -36, TH_CLIPPING: 0.0005
+===>	TOTAL:	87.05 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.21 Umbral P: -36, TH_CLIPPING: 0.01
+===>	TOTAL:	86.39 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.21 Umbral P: -37, TH_CLIPPING: 0.001
+===>	TOTAL:	88.26 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.21 Umbral P: -37, TH_CLIPPING: 0.0001
+===>	TOTAL:	88.27 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.21 Umbral P: -37, TH_CLIPPING: 0.0005
+===>	TOTAL:	88.27 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.21 Umbral P: -37, TH_CLIPPING: 0.01
+===>	TOTAL:	87.38 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.21 Umbral P: -38, TH_CLIPPING: 0.001
+===>	TOTAL:	88.90 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.21 Umbral P: -38, TH_CLIPPING: 0.0001
+===>	TOTAL:	88.92 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.21 Umbral P: -38, TH_CLIPPING: 0.0005
+===>	TOTAL:	88.92 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.21 Umbral P: -38, TH_CLIPPING: 0.01
+===>	TOTAL:	88.11 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.21 Umbral P: -39, TH_CLIPPING: 0.001
+===>	TOTAL:	89.41 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.21 Umbral P: -39, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.42 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.21 Umbral P: -39, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.42 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.21 Umbral P: -39, TH_CLIPPING: 0.01
+===>	TOTAL:	88.51 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.21 Umbral P: -40, TH_CLIPPING: 0.001
+===>	TOTAL:	89.86 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.21 Umbral P: -40, TH_CLIPPING: 0.0001
+===>	TOTAL:	89.87 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.21 Umbral P: -40, TH_CLIPPING: 0.0005
+===>	TOTAL:	89.87 %
+Parametros: Umbral R1: 0.91, Umbral Rm: 0.21 Umbral P: -40, TH_CLIPPING: 0.01
+===>	TOTAL:	88.92 %

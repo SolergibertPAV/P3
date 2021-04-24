@@ -126,8 +126,7 @@ Ejercicios básicos
 	    su resultado con el obtenido por la mejor versión de su propio sistema.  Inserte una gráfica
 		  ilustrativa del resultado de ambos detectores.
 
-    ![](imagenes_p3/wavesurferf0.png)
-    ![](imagenes_p3/wavesurferf0ref.png)
+    ![](imagenes_p3/graficodelasdos.png)
     ![](imagenes_p3/comparacion.png)
 
     Como vemos en el terminal de la última imagen el resultado obtenido es de un 65,17%. Esta detección no es muy precisa como se puede apreciar comparando ambas gráficas de la señal rl001.
