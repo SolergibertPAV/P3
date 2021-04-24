@@ -162,10 +162,10 @@ Ejercicios básicos
       - Use el detector de pitch implementado en el programa `wavesurfer` en una señal de prueba y compare
 	    su resultado con el obtenido por la mejor versión de su propio sistema.  Inserte una gráfica
 		  ilustrativa del resultado de ambos detectores.
-      
-    ![](imagenes_p3/wavesurferf0.PNG)
-    ![](imagenes_p3/wavesurferf0ref.PNG)
-    ![](imagenes_p3/comparacion.PNG)
+
+    ![](imagenes_p3/wavesurferf0.png)
+    ![](imagenes_p3/wavesurferf0ref.png)
+    ![](imagenes_p3/comparacion.png)
 
     Como vemos en el terminal de la última imagen el resultado obtenido es de un 65,17%. Esta detección no es muy precisa como se puede apreciar comparando ambas gráficas de la señal rl001.
   
@@ -173,7 +173,7 @@ Ejercicios básicos
     y el *score* TOTAL proporcionados por `pitch_evaluate` en la evaluación de la base de datos 
 	`pitch_db/train`..
 
-  ![](imagenes_p3/resultado.PNG)
+  ![](imagenes_p3/resultado.png)
 
    * Inserte una gráfica en la que se vea con claridad el resultado de su detector de pitch junto al del
      detector de Wavesurfer. Aunque puede usarse Wavesurfer para obtener la representación, se valorará
