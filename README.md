@@ -44,7 +44,7 @@ Ejercicios básicos
   ![](imagenes_p3/tramo_sonoro.PNG)
   ![](imagenes_p3/autocorrelacion.PNG)  
 
-  El código utilizando, haciendo uso de la librería matplotlib de Python, para hacer las gráficas es el siguiente:
+  El código utilizado, haciendo uso de la librería matplotlib de Python, para hacer las gráficas es el siguiente:
   ~~~
   señal, fm = sf.read('Audio.wav') 
   t = np.arange(0, len(señal)) / fm 
@@ -147,17 +147,13 @@ Ejercicios básicos
 	    principales candidatos para determinar la sonoridad de la voz: el nivel de potencia de la señal
 		(r[0]), la autocorrelación normalizada de uno (r1norm = r[1] / r[0]) y el valor de la
 		autocorrelación en su máximo secundario (rmaxnorm = r[lag] / r[0]).
-    
-    ![](imagenes_p3/pitch_wavesurfer.png)
-  
-    falta incluir todo sobre las correlaciones
 
 		Puede considerar, también, la conveniencia de usar la tasa de cruces por cero.
 
-	  Recuerde configurar los paneles de datos para que el desplazamiento de ventana sea el adecuado, que
+	    Recuerde configurar los paneles de datos para que el desplazamiento de ventana sea el adecuado, que
 		en esta práctica es de 15 ms.
 
-    
+    ![](imagenes_p3/pitch_wavesurfer.png)
 
       - Use el detector de pitch implementado en el programa `wavesurfer` en una señal de prueba y compare
 	    su resultado con el obtenido por la mejor versión de su propio sistema.  Inserte una gráfica
