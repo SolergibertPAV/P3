@@ -196,7 +196,8 @@ Ejercicios de ampliación
   Entre las posibles mejoras, puede escoger una o más de las siguientes:
 
   * Técnicas de preprocesado: filtrado paso bajo, *center clipping*, etc.
-//Center clipping & Window input frame
+  
+  En el preprocesado, hemos implementado el center clipping.
   ~~~
     for (unsigned int i=0; i<x.size(); ++i){
       if(x[i] < th_clipping_p && x[i] > -th_clipping_p){
@@ -207,7 +208,7 @@ Ejercicios de ampliación
     }
   ~~~
   * Técnicas de postprocesado: filtro de mediana, *dynamic time warping*, etc.
-///implementacion filtro de mediana
+  En el postprocesado, hemos implementado el filtro de la mediana
   ~~~
   vector<float> f0_F = f0; //Creamos un vector copia de f0 para poder extraer los valores ya que los modificaremos directamente de f0
 
