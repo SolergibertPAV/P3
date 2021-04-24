@@ -37,6 +37,9 @@ Ejercicios básicos
      unos 30 ms de un fonema sonoro y su periodo de pitch; y, en otro *subplot*, se vea con claridad la
 	 autocorrelación de la señal y la posición del primer máximo secundario.
 
+   NOTA: es más que probable que tenga que usar Python, Octave/MATLAB u otro programa semejante para
+	 hacerlo. Se valorará la utilización de la librería matplotlib de Python.
+
   ![](imagenes_p3/grafica_señal.PNG)
   ![](imagenes_p3/tramo_sonoro.PNG)
   ![](imagenes_p3/autocorrelacion.PNG)  
@@ -50,7 +53,9 @@ Ejercicios básicos
   plt.xlim(right = 10)
   plt.plot(t, señal)
   plt.show()
-  
+  ~~~
+
+  ~~~
   t_ms = 30                       #Introducimos un valor de tiempo en milisegundos
   l = int((fm * t_ms)/1e3)        #Calculamos el número de muestras
 
@@ -58,7 +63,9 @@ Ejercicios básicos
   plt.xlabel('Muestra')
   plt.ylabel('Amplitud')
   plt.show()
+  ~~~
 
+  ~~~
   def autocorrelacion(vector):
   autocorrelation = np.correlate(vector, vector, mode = 'full')
   return autocorrelation[autocorrelation.size//2:]
@@ -66,8 +73,6 @@ Ejercicios básicos
   plt.plot(t[:l]*1000, autocorrelacion(señal[fm:fm+l]))
   plt.show()
   ~~~
-	 NOTA: es más que probable que tenga que usar Python, Octave/MATLAB u otro programa semejante para
-	 hacerlo. Se valorará la utilización de la librería matplotlib de Python.
 
    * Determine el mejor candidato para el periodo de pitch localizando el primer máximo secundario de la
      autocorrelación. Inserte a continuación el código correspondiente.
