@@ -122,12 +122,12 @@ Ejercicios básicos
   }
   ~~~
    * Implemente la regla de decisión sonoro o sordo e inserte el código correspondiente.
-   
+  ~~~ 
    bool PitchAnalyzer::unvoiced(float pot, float r1norm, float rmaxnorm) const {
     /// \TODO Implement a rule to decide whether the sound is voiced or not.
     /// * You can use the standard features (pot, r1norm, rmaxnorm),
     ///   or compute and use other ones.
-  ~~~  
+
     if (r1norm > umbral_p){///donde umbral_p es igual al valor que le damos al parámetro umbral, por defecto /////vale 0,91
       return false;
     }
@@ -147,20 +147,22 @@ Ejercicios básicos
 	    principales candidatos para determinar la sonoridad de la voz: el nivel de potencia de la señal
 		(r[0]), la autocorrelación normalizada de uno (r1norm = r[1] / r[0]) y el valor de la
 		autocorrelación en su máximo secundario (rmaxnorm = r[lag] / r[0]).
+    
     ![](imagenes_p3/pitch_wavesurfer.PNG)
   
-    //falta incluir todo sobre las correlaciones
+    falta incluir todo sobre las correlaciones
 
 		Puede considerar, también, la conveniencia de usar la tasa de cruces por cero.
 
-	    Recuerde configurar los paneles de datos para que el desplazamiento de ventana sea el adecuado, que
+	  Recuerde configurar los paneles de datos para que el desplazamiento de ventana sea el adecuado, que
 		en esta práctica es de 15 ms.
 
     
 
       - Use el detector de pitch implementado en el programa `wavesurfer` en una señal de prueba y compare
 	    su resultado con el obtenido por la mejor versión de su propio sistema.  Inserte una gráfica
-		ilustrativa del resultado de ambos detectores.
+		  ilustrativa del resultado de ambos detectores.
+      
     ![](imagenes_p3/wavesurferf0.PNG)
     ![](imagenes_p3/wavesurferf0ref.PNG)
     ![](imagenes_p3/comparacion.PNG)
