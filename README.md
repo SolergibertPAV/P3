@@ -109,20 +109,17 @@ Ejercicios básicos
 
     float pot = 10 * log10(r[0]);
 
-    //You can print these (and other) features, look at them using wavesurfer
-    //Based on that, implement a rule for unvoiced
-    //change to #if 1 and compile
-#if 0
+  #if 0
     if (r[0] > 0.0F)
       cout << pot << '\t' << r[1]/r[0] << '\t' << r[lag]/r[0] << endl;
-#endif
+  #endif
     
     if (unvoiced(pot, r[1]/r[0], r[lag]/r[0]))
       return 0;
     else
       return (float) samplingFreq/(float) lag;
   }
-}
+  }
   ~~~
    * Implemente la regla de decisión sonoro o sordo e inserte el código correspondiente.
    
@@ -138,7 +135,7 @@ Ejercicios básicos
     return true; //aqui habia un true
     /// \DONE
     /// Posible mejora del criterio
-  }
+    }
   ~~~
 - Una vez completados los puntos anteriores, dispondrá de una primera versión del detector de pitch. El 
   resto del trabajo consiste, básicamente, en obtener las mejores prestaciones posibles con él.
