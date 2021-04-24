@@ -17,7 +17,7 @@ Ejercicios básicos
   `get_pitch`.
 
    * Complete el cálculo de la autocorrelación e inserte a continuación el código correspondiente.
-  ~~~
+  ```cpp
   void PitchAnalyzer::autocorrelation(const vector<float> &x, vector<float> &r) const {
 
     for (unsigned int m = 0; m < r.size(); ++m) {
@@ -32,7 +32,7 @@ Ejercicios básicos
     if (r[0] == 0.0F) //to avoid log() and divide zero 
       r[0] = 1e-10; 
   }
-  ~~~
+  ```
    * Inserte una gŕafica donde, en un *subplot*, se vea con claridad la señal temporal de un segmento de
      unos 30 ms de un fonema sonoro y su periodo de pitch; y, en otro *subplot*, se vea con claridad la
 	 autocorrelación de la señal y la posición del primer máximo secundario.
@@ -44,40 +44,11 @@ Ejercicios básicos
   ![](imagenes_p3/tramo_sonoro.PNG)
   ![](imagenes_p3/autocorrelacion.PNG)  
 
-  El código utilizado, haciendo uso de la librería matplotlib de Python, para hacer las gráficas es el siguiente:
-  ~~~
-  señal, fm = sf.read('Audio.wav') 
-  t = np.arange(0, len(señal)) / fm 
-  plt.xlabel('s')
-  plt.ylabel('Amplitud')
-  plt.xlim(right = 10)
-  plt.plot(t, señal)
-  plt.show()
-  ~~~
-
-  ~~~
-  t_ms = 30                       #Introducimos un valor de tiempo en milisegundos
-  l = int((fm * t_ms)/1e3)        #Calculamos el número de muestras
-
-  plt.plot(t[fm:fm+l], señal[fm:fm+l])
-  plt.xlabel('Muestra')
-  plt.ylabel('Amplitud')
-  plt.show()
-  ~~~
-
-  ~~~
-  def autocorrelacion(vector):
-  autocorrelation = np.correlate(vector, vector, mode = 'full')
-  return autocorrelation[autocorrelation.size//2:]
-
-  plt.plot(t[:l]*1000, autocorrelacion(señal[fm:fm+l]))
-  plt.show()
-  ~~~
 
    * Determine el mejor candidato para el periodo de pitch localizando el primer máximo secundario de la
      autocorrelación. Inserte a continuación el código correspondiente.
   Función compute_pitch:
-  ~~~
+  ```cpp
   float PitchAnalyzer::compute_pitch(vector<float> & x) const {
     if (x.size() != frameLen)
       return -1.0F;
@@ -120,9 +91,9 @@ Ejercicios básicos
       return (float) samplingFreq/(float) lag;
   }
   }
-  ~~~
+  ```
    * Implemente la regla de decisión sonoro o sordo e inserte el código correspondiente.
-  ~~~ 
+  ```cpp
    bool PitchAnalyzer::unvoiced(float pot, float r1norm, float rmaxnorm) const {
     /// \TODO Implement a rule to decide whether the sound is voiced or not.
     /// * You can use the standard features (pot, r1norm, rmaxnorm),
@@ -136,7 +107,7 @@ Ejercicios básicos
     /// \DONE
     /// Posible mejora del criterio
     }
-  ~~~
+  ```
 - Una vez completados los puntos anteriores, dispondrá de una primera versión del detector de pitch. El 
   resto del trabajo consiste, básicamente, en obtener las mejores prestaciones posibles con él.
 
@@ -197,33 +168,8 @@ Ejercicios de ampliación
 
   * Técnicas de preprocesado: filtrado paso bajo, *center clipping*, etc.
   
-  En el preprocesado, hemos implementado el center clipping.
-  ~~~
-    for (unsigned int i=0; i<x.size(); ++i){
-      if(x[i] < th_clipping_p && x[i] > -th_clipping_p){
-        x[i] = 0;
-      }
-      //cout << x[i] << '\n';
-      x[i] *= window[i];
-    }
-  ~~~
   * Técnicas de postprocesado: filtro de mediana, *dynamic time warping*, etc.
-  En el postprocesado, hemos implementado el filtro de la mediana
-  ~~~
-  vector<float> f0_F = f0; //Creamos un vector copia de f0 para poder extraer los valores ya que los modificaremos directamente de f0
-
-  for(int n = 1; n < f0_F.size() - 1; n++){
-    //cout << n << "\n";
-    //cout << f0_F[n] << "\n";
-    float arr[] = {f0_F[n-1], f0_F[n], f0_F[n+1]};
-      for (int j = 0; j<3; j++){
-        //cout << arr[j] << " ";
-      }
-    sort(arr, arr+3);
-    f0[n] = arr[1];
-    //cout << "\n" << f0[n] << "\n\n";
-  }
-  ~~~
+  
   * Métodos alternativos a la autocorrelación: procesado cepstral, *average magnitude difference function*
     (AMDF), etc.
   * Optimización **demostrable** de los parámetros que gobiernan el detector, en concreto, de los que
