@@ -40,10 +40,6 @@ Ejercicios básicos
    NOTA: es más que probable que tenga que usar Python, Octave/MATLAB u otro programa semejante para
 	 hacerlo. Se valorará la utilización de la librería matplotlib de Python.
 
-  ![](imagenes_p3/grafica_señal.PNG)
-  ![](imagenes_p3/tramo_sonoro.PNG)
-  ![](imagenes_p3/autocorrelacion.PNG)  
-
 
    * Determine el mejor candidato para el periodo de pitch localizando el primer máximo secundario de la
      autocorrelación. Inserte a continuación el código correspondiente.
