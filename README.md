@@ -148,7 +148,7 @@ Ejercicios básicos
 		(r[0]), la autocorrelación normalizada de uno (r1norm = r[1] / r[0]) y el valor de la
 		autocorrelación en su máximo secundario (rmaxnorm = r[lag] / r[0]).
     
-    ![](imagenes_p3/pitch_wavesurfer.PNG)
+    ![](imagenes_p3/pitch_wavesurfer.png)
   
     falta incluir todo sobre las correlaciones
 
