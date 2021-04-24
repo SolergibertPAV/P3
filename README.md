@@ -3,7 +3,6 @@ PAV - P3: detección de pitch
 
 Esta práctica se distribuye a través del repositorio GitHub [Práctica 3](https://github.com/albino-pav/P3).
 
-Prueba
 
 Siga las instrucciones de la [Práctica 2](https://github.com/albino-pav/P2) para realizar un `fork` de la
 misma y distribuir copias locales (*clones*) del mismo a los distintos integrantes del grupo de prácticas.
@@ -40,6 +39,42 @@ Ejercicios básicos
    NOTA: es más que probable que tenga que usar Python, Octave/MATLAB u otro programa semejante para
 	 hacerlo. Se valorará la utilización de la librería matplotlib de Python.
 
+  ![](imagenes_p3/grafica_señal.PNG)
+  ![](imagenes_p3/tramo_sonoro.PNG)
+  ![](imagenes_p3/autocorrelacion.PNG)  
+
+  DISCLAIMER: Este documento contiene gráficas creadas con matplotlib. Puede consultar el código en el siguiente notebook alojado
+  en google colab: https://colab.research.google.com/drive/10EUpVyo7lx2UtQhYd5rFB0Lf5bumvvqM?usp=sharing
+
+  El código utilizado, haciendo uso de la librería matplotlib de Python, para hacer las gráficas es el siguiente:
+  ```python
+  señal, fm = sf.read('Audio.wav') 
+  t = np.arange(0, len(señal)) / fm 
+  plt.xlabel('s')
+  plt.ylabel('Amplitud')
+  plt.xlim(right = 10)
+  plt.plot(t, señal)
+  plt.show()
+  ```
+
+  ```python
+  t_ms = 30                       #Introducimos un valor de tiempo en milisegundos
+  l = int((fm * t_ms)/1e3)        #Calculamos el número de muestras
+
+  plt.plot(t[fm:fm+l], señal[fm:fm+l])
+  plt.xlabel('Muestra')
+  plt.ylabel('Amplitud')
+  plt.show()
+  ```
+
+  ```python
+  def autocorrelacion(vector):
+  autocorrelation = np.correlate(vector, vector, mode = 'full')
+  return autocorrelation[autocorrelation.size//2:]
+
+  plt.plot(t[:l]*1000, autocorrelacion(señal[fm:fm+l]))
+  plt.show()
+  ```
 
    * Determine el mejor candidato para el periodo de pitch localizando el primer máximo secundario de la
      autocorrelación. Inserte a continuación el código correspondiente.
@@ -129,17 +164,53 @@ Ejercicios básicos
     ![](imagenes_p3/graficodelasdos.png)
     ![](imagenes_p3/comparacion.png)
 
-    Como vemos en el terminal de la última imagen el resultado obtenido es de un 65,17%. Esta detección no es muy precisa como se puede apreciar comparando ambas gráficas de la señal rl001.
+    Como vemos en el terminal de la última imagen el resultado obtenido es de un 97.2%. Como se puede observar en la gráfica que muestra la referencia y la generada por nuestro programa, la estimación es practicamente perfecta.
   
   * Optimice los parámetros de su sistema de detección de pitch e inserte una tabla con las tasas de error
     y el *score* TOTAL proporcionados por `pitch_evaluate` en la evaluación de la base de datos 
 	`pitch_db/train`..
 
+  Para encontrar los parámetros que nos generaban la mayor puntación final hemos modificado el script run_get_pitch.
+  Ahora es capaz de iterar sobre unos parametros especificados, imprimir por pantalla los que va a utilizar en la siguiente
+  ejecucion de run_get_pitch y al terminar ejecuta pitch_evaluate.
+
+  ![](imagenes_p3/rgp.png)
   ![](imagenes_p3/resultado.png)
 
    * Inserte una gráfica en la que se vea con claridad el resultado de su detector de pitch junto al del
      detector de Wavesurfer. Aunque puede usarse Wavesurfer para obtener la representación, se valorará
 	 el uso de alternativas de mayor calidad (particularmente Python).
+
+   La imagen presentada en el primer aparatado la hemos generado con el siguiente script de python.
+   ```python
+   import numpy as np
+   import matplotlib.pyplot as plt
+   from matplotlib.pyplot import figure
+   from google.colab import files
+
+   os.mkdir('Archivos')                                                      
+   ARCHIVOS_FOLDER = os.path.join(os.getcwd(), "Archivos")           
+   os.chdir(ARCHIVOS_FOLDER)                                                      
+   files.upload()                                                                  
+   os.chdir('..')                                                                  
+   ```
+
+   ```python
+   figure(figsize=(18, 6), dpi=80)
+
+   for file in os.listdir(ARCHIVOS_FOLDER):                                        
+     if file.endswith(".f0") or file.endswith(".f0ref"):
+     file_dir = os.path.join(ARCHIVOS_FOLDER, file)
+     pitch = np.loadtxt(file_dir)
+     t = np.arange(0, pitch.shape[0])
+     plt.scatter(t, pitch, label = file)
+
+   plt.xlabel('muestra')
+   plt.ylabel('Pitch (Hz)')
+   plt.legend()
+   plt.savefig("grafica.png") 
+   plt.show()
+   ```
    
 
 Ejercicios de ampliación
@@ -163,8 +234,33 @@ Ejercicios de ampliación
 
   * Técnicas de preprocesado: filtrado paso bajo, *center clipping*, etc.
   
+  En el preprocesado, hemos implementado el center clipping.
+  ```cpp
+    for (unsigned int i=0; i<x.size(); ++i){
+      if(x[i] < th_clipping_p && x[i] > -th_clipping_p){
+        x[i] = 0;
+      }
+      //cout << x[i] << '\n';
+      x[i] *= window[i];
+    }
+  ```
   * Técnicas de postprocesado: filtro de mediana, *dynamic time warping*, etc.
-  
+  En el postprocesado, hemos implementado el filtro de la mediana
+  ```cpp
+  vector<float> f0_F = f0; //Creamos un vector copia de f0 para poder extraer los valores ya que los modificaremos directamente de f0
+
+  for(int n = 1; n < f0_F.size() - 1; n++){
+    //cout << n << "\n";
+    //cout << f0_F[n] << "\n";
+    float arr[] = {f0_F[n-1], f0_F[n], f0_F[n+1]};
+      for (int j = 0; j<3; j++){
+        //cout << arr[j] << " ";
+      }
+    sort(arr, arr+3);
+    f0[n] = arr[1];
+    //cout << "\n" << f0[n] << "\n\n";
+  }
+  ```
   * Métodos alternativos a la autocorrelación: procesado cepstral, *average magnitude difference function*
     (AMDF), etc.
   * Optimización **demostrable** de los parámetros que gobiernan el detector, en concreto, de los que
