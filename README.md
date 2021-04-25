@@ -69,8 +69,8 @@ Ejercicios básicos
 
   ```python
   def autocorrelacion(vector):
-  autocorrelation = np.correlate(vector, vector, mode = 'full')
-  return autocorrelation[autocorrelation.size//2:]
+    autocorrelation = np.correlate(vector, vector, mode = 'full')
+    return autocorrelation[autocorrelation.size//2:]
 
   plt.plot(t[:l]*1000, autocorrelacion(señal[fm:fm+l]))
   plt.show()
@@ -125,19 +125,14 @@ Ejercicios básicos
   ```
    * Implemente la regla de decisión sonoro o sordo e inserte el código correspondiente.
   ```cpp
-   bool PitchAnalyzer::unvoiced(float pot, float r1norm, float rmaxnorm) const {
-    /// \TODO Implement a rule to decide whether the sound is voiced or not.
-    /// * You can use the standard features (pot, r1norm, rmaxnorm),
-    ///   or compute and use other ones.
-
-    if (r1norm > umbral_p){///donde umbral_p es igual al valor que le damos al parámetro umbral, por defecto /////vale 0,91
+  bool PitchAnalyzer::unvoiced(float pot, float r1norm, float rmaxnorm) const {
+    
+    if (r1norm > umbral_R1 && rmaxnorm > umbral_RM && pot > umbral_P){
       return false;
     }
 
-    return true; //aqui habia un true
-    /// \DONE
-    /// Posible mejora del criterio
-    }
+    return true;
+  }
   ```
 - Una vez completados los puntos anteriores, dispondrá de una primera versión del detector de pitch. El 
   resto del trabajo consiste, básicamente, en obtener las mejores prestaciones posibles con él.

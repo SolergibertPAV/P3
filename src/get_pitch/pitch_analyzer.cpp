@@ -67,7 +67,6 @@ namespace upc {
     }
 
     return true;
-    //return (r1norm < 0.9 || rmaxnorm < 0.2 || pot < -38);
     /// \DONE
     /// Hecho, la verdad esta parte se puede mejorar BASTANTE
   }
