@@ -195,10 +195,10 @@ Ejercicios básicos
 
    for file in os.listdir(ARCHIVOS_FOLDER):                                        
      if file.endswith(".f0") or file.endswith(".f0ref"):
-     file_dir = os.path.join(ARCHIVOS_FOLDER, file)
-     pitch = np.loadtxt(file_dir)
-     t = np.arange(0, pitch.shape[0])
-     plt.scatter(t, pitch, label = file)
+      file_dir = os.path.join(ARCHIVOS_FOLDER, file)
+      pitch = np.loadtxt(file_dir)
+      t = np.arange(0, pitch.shape[0])
+      plt.scatter(t, pitch, label = file)
 
    plt.xlabel('muestra')
    plt.ylabel('Pitch (Hz)')
